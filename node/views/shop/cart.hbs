@@ -1,0 +1,125 @@
+
+<div class="hero-wrap hero-bread" style="background-image: url('/images/bg_6.jpg');">
+    <div class="container">
+        <div class="row justify-content-center  align-items-center">
+            <div class="col-md-8">
+                <h2 style="text-align: center;"><em>MY CART</em></h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="site-section  pb-0">
+    <div class="container">
+        <div class="row mb-5 justify-content-center">
+            <div class="col-7 section-title text-center mb-5">
+            </div>
+        </div>
+{{#if products}}
+        <section class="ftco-section ftco-cart">
+        <div class="row mb-5">
+            <form class="col-md-12" method="post">
+                <div class="site-blocks-table">
+                    <table class="table table-bordered">
+                        <thead>
+                        <tr>
+                            <th class="product-thumbnail">Image</th>
+                            <th class="product-name">Product</th>
+                            <th class="product-price">Price</th>
+                            <th class="product-quantity">Quantity</th>
+                            <th class="product-remove">Remove</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+    {{# each products}}
+
+                        <tr>
+                            <td class="product-thumbnail">
+                                <img src="{{this.item.imagePath}}" alt="Image" class="img-fluid">
+                            </td>
+                            <td class="product-name">
+                                <h2 class="h5 cart-product-title text-black">{{this.item.title}}</h2>
+                            </td>
+                            <td>Rs.{{this.item.price}}</td>
+
+
+
+                            <td class="image-prod">
+                                <div class="input-group mb-3" style="width: 250px; margin-top: 10px; margin-left: 20px">
+                                    <div class="input-group-prepend" style="margin-right: 30px">
+                                        <a href="/reduce/{{this.item._id}}" class="btn btn-primary height-auto btn-sm">-</a>
+                                    </div>
+                                <div>{{this.qty}}</div>
+                                    <div class="input-group-append" style="margin-left: 20px">
+                                        <a href="/add/{{this.item._id}}" class="btn btn-primary height-auto btn-sm">+</a>
+                                    </div>
+                                </div>
+                            </td>
+                              <td><a href="/remove/{{this.item._id}}" class="btn btn-primary height-auto btn-sm">X</a></td>
+                        </tr>
+    {{/each}}
+
+                        </tbody>
+                    </table>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>
+</section>
+
+<div class="site-section pt-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row mb-5">
+
+                    <div class="col-md-6">
+                        <button class="btn btn-outline-primary btn-md btn-block"><a href="/shop/menu">Continue Shopping</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 pl-5">
+                <div class="row justify-content-end">
+                    <div class="col-md-7">
+                        <div class="row">
+                            <div class="col-md-12 text-right border-bottom mb-5">
+                                <h3 class="text-black h4 text-uppercase">CART TOTAL</h3>
+                            </div>
+                        </div>
+
+
+                        <div class="row mb-5">
+                            <div class="col-md-6">
+                                <span style="color: black">TOTAL</span>
+                            </div>
+                            <div class="col-md-6 text-right">
+                                <strong class="text-black" style="font-size:20px; text-align:center">Rs.{{ totalPrice }}</strong>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <button class="btn btn-outline-primary btn-md btn-block"><a href="/shop/checkout">Proceed to checkout</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{else}}
+    <div class="site-section  pb-0">
+    <div class="container">
+        <div class="row mb-5 justify-content-center">
+            <div class="col-7 section-title text-center mb-5">
+                <h2 class="d-block">No Items In My Cart</h2>
+            </div>
+        </div>
+    </div>
+    </div>
+{{/if}}

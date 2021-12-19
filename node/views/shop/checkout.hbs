@@ -1,0 +1,86 @@
+<div class="hero-wrap hero-bread" style="background-image: url('/images/bg_6.jpg');">
+    <div class="container">
+        <div class="row justify-content-center text-center align-items-center">
+            <div class="col-md-8">
+                <h2>CHECKOUT PAGE</h2><br>
+                <h2 style="font-size:18px">Delivery Address: {{this.user.address}}</h2>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+{{#if products}}
+    <div class="site-section  pb-0">
+        <div class="container">
+    <div class=" row justify-content-center">
+
+        <div class="row mb-5">
+
+                <div class="p-3 p-lg-5 border">
+
+                    <table class="table site-block-order-table mb-5">
+
+                        <thead>
+                        <th>PRODUCT</th>
+                        <th>TOTAL</th>
+                        </thead>
+                        <tbody>
+    {{# each products}}
+
+        <tr>
+                            <td>{{this.item.title}}<strong class="mx-2">x</strong> {{this.qty}}</td>
+                            <td>Rs.{{this.price}}</td>
+                        </tr>
+    {{/each}}
+                            <td class="text-black font-weight-bold"><strong>Cart Subtotal</strong></td>
+                            <td class="text-black">Rs.{{total}}</td>
+                          <td class="text-black font-weight-bold"><strong>Delivery Charge</strong></td>
+                          <td class="text-black">Rs.120</td>
+                        </tr>
+                        <tr>
+                            <td class="text-black font-weight-bold"><strong>Please Pay</strong></td>
+                            <td class="text-black font-weight-bold"><strong>Rs.{{finalPrice}}</strong></td>
+                        </tr>
+
+                         </tbody>
+                    </table>
+
+
+
+                    <div class="row justify-content-center col-md-12">
+                        <form style="margin-left: 15px" action="/charge" method="post">
+                            <script
+                                    src="https://checkout.stripe.com/checkout.js"
+                                    class="stripe-button"
+                                    data-key="pk_test_hSd6sfCAFsvHFkLvLx3EKkNO00crIKDOP7"
+                                    data-amount="{{chargeAmount}}"
+                                    data-locale="auto"
+                                    data-currency="rupees"
+                            >
+                            </script>
+                            <input  type="hidden" name="chargeAmount" value="{{chargeAmount}}">
+
+                        </form>
+                    </div>
+                </div>
+        </div>
+    </div>
+        </div>
+    </div>
+
+{{else}}
+    <div class="site-section  pb-0">
+        <div class="container">
+            <div class="row mb-5 justify-content-center">
+                <div class="col-7 section-title text-center mb-5">
+                    <h2 class="d-block">No Items In My Cart</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+{{/if}}
+
+
+<script type="text/javascript" src="https://js.stripe.com/v3/"></script>
+<script type="text/javascript" src="public/javascripts/checkout.js"></script>

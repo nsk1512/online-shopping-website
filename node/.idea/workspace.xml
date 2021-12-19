@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="779a0a34-c69b-437b-a3d2-dc9690f48c71" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1d89UA4IqsUDXW4alTfiHOAR804" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RunManager" selected="Node.js.app.js">
+    <configuration name="ProductSeeder.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/seed/ProductSeeder.js" working-dir="$PROJECT_DIR$/seed">
+      <method v="2" />
+    </configuration>
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/app.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="blog.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/models/blog.js" working-dir="$PROJECT_DIR$/models">
+      <method v="2" />
+    </configuration>
+    <configuration name="contact.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/models/contact.js" working-dir="$PROJECT_DIR$/models">
+      <method v="2" />
+    </configuration>
+    <configuration name="www" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/bin/www" working-dir="$PROJECT_DIR$/bin">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.app.js" />
+        <item itemvalue="Node.js.www" />
+        <item itemvalue="Node.js.blog.js" />
+        <item itemvalue="Node.js.ProductSeeder.js" />
+        <item itemvalue="Node.js.contact.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="779a0a34-c69b-437b-a3d2-dc9690f48c71" name="Default Changelist" comment="" />
+      <created>1591795865877</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591795865877</updated>
+      <workItem from="1591795867556" duration="2100000" />
+      <workItem from="1591798203975" duration="5091000" />
+      <workItem from="1591805158497" duration="610000" />
+      <workItem from="1591807006504" duration="385000" />
+      <workItem from="1591807404399" duration="347000" />
+      <workItem from="1591807776757" duration="324000" />
+      <workItem from="1591808137693" duration="303000" />
+      <workItem from="1591808486061" duration="298000" />
+      <workItem from="1591808800098" duration="2325000" />
+      <workItem from="1591811160230" duration="962000" />
+      <workItem from="1591814187778" duration="1902000" />
+      <workItem from="1591816290230" duration="1798000" />
+      <workItem from="1591818104441" duration="1793000" />
+      <workItem from="1591819915309" duration="1793000" />
+      <workItem from="1591821726023" duration="1805000" />
+      <workItem from="1591823585221" duration="1819000" />
+      <workItem from="1591825424315" duration="2004000" />
+      <workItem from="1591856591371" duration="829000" />
+      <workItem from="1591858465009" duration="1785000" />
+      <workItem from="1591860271080" duration="1947000" />
+      <workItem from="1591865977171" duration="1798000" />
+      <workItem from="1591867796536" duration="1799000" />
+      <workItem from="1591869638279" duration="1796000" />
+      <workItem from="1591871755853" duration="2003000" />
+      <workItem from="1591875618591" duration="1788000" />
+      <workItem from="1591877486034" duration="2059000" />
+      <workItem from="1591895505780" duration="1777000" />
+      <workItem from="1591960679195" duration="1786000" />
+      <workItem from="1591962493243" duration="1805000" />
+      <workItem from="1591964314537" duration="1795000" />
+      <workItem from="1591966133219" duration="850000" />
+      <workItem from="1591969628279" duration="1792000" />
+      <workItem from="1591971437451" duration="1812000" />
+      <workItem from="1591973281630" duration="2044000" />
+      <workItem from="1591975408450" duration="697000" />
+      <workItem from="1591979471772" duration="1851000" />
+      <workItem from="1591981356842" duration="856000" />
+      <workItem from="1591986156526" duration="1758000" />
+      <workItem from="1592033539376" duration="1581000" />
+      <workItem from="1592039719226" duration="1841000" />
+      <workItem from="1592041579187" duration="1797000" />
+      <workItem from="1592043394593" duration="1793000" />
+      <workItem from="1592045208564" duration="1463000" />
+      <workItem from="1592047164955" duration="1792000" />
+      <workItem from="1592049282404" duration="1796000" />
+      <workItem from="1592676368048" duration="33000" />
+      <workItem from="1592677029780" duration="499000" />
+      <workItem from="1592679873003" duration="98000" />
+      <workItem from="1592679989340" duration="1487000" />
+      <workItem from="1594211399652" duration="1437000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1594212627838">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1594212627838" />
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1592045420496">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1592045420496" />
+    <state width="1237" height="204" key="GridCell.Tab.0.center" timestamp="1592045420496">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1592045420496" />
+    <state width="1237" height="204" key="GridCell.Tab.0.left" timestamp="1592045420495">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1592045420495" />
+    <state width="1237" height="204" key="GridCell.Tab.0.right" timestamp="1592045420496">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1592045420496" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1592045420497">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1592045420497" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1592045420496">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1592045420496" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1592045420496">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1592045420496" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1592045420496">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1592045420496" />
+    <state width="1237" height="204" key="GridCell.Tab.2.bottom" timestamp="1592045420497">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1592045420497" />
+    <state width="1237" height="204" key="GridCell.Tab.2.center" timestamp="1592045420497">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1592045420497" />
+    <state width="1237" height="204" key="GridCell.Tab.2.left" timestamp="1592045420497">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1592045420497" />
+    <state width="1237" height="204" key="GridCell.Tab.2.right" timestamp="1592045420497">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1592045420497" />
+    <state width="1237" height="204" key="GridCell.Tab.3.bottom" timestamp="1592045420498">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.3.bottom/0.0.1280.680@0.0.1280.680" timestamp="1592045420498" />
+    <state width="1237" height="204" key="GridCell.Tab.3.center" timestamp="1592045420498">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.3.center/0.0.1280.680@0.0.1280.680" timestamp="1592045420498" />
+    <state width="1237" height="204" key="GridCell.Tab.3.left" timestamp="1592045420497">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.3.left/0.0.1280.680@0.0.1280.680" timestamp="1592045420497" />
+    <state width="1237" height="204" key="GridCell.Tab.3.right" timestamp="1592045420498">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.3.right/0.0.1280.680@0.0.1280.680" timestamp="1592045420498" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1591795882641">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1591795882641" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1592044226677">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1592044226677" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1591870287607">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1591870287607" />
+  </component>
+</project>

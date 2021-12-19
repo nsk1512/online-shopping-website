@@ -1,0 +1,54 @@
+<div class="page-wrapper bg-gra-01 p-t-180 p-b-100 font-poppins">
+        <div class="wrapper wrapper--w780">
+            <div class="card card-3">
+                <div class="card-heading"></div>
+                <div class="card-body">
+                    <div class="title"><a href="">CREATE AN ACCOUNT</a> </div>
+
+
+                     <div class="form">
+                            {{#if hasErrors}}
+                                <div class="alert alert-danger">
+                                    {{# each messages}}
+                                        <p>{{this}}</p>
+                                    {{/each}}
+                                </div>
+                            {{/if}}
+
+
+                    <form action="../user/signup" method="post">
+                        <div class="input-group">
+                            <input class="input--style-3" type="text" name="name" placeholder="Name" >
+                        </div>
+                        <div class="input-group">
+                           <input class="input--style-3" type="text" name="address" placeholder="Enter your delivery address" >
+                         </div>
+                        <div class="input-group">
+                            <input class="input--style-3" type="email" name="email" placeholder="Email">
+                        </div>
+                        <div class="input-group">
+                            <input class="input--style-3" type="password" name="password" placeholder="Password" >
+                         </div>
+
+                        <div class="input-group">
+                            <input class="input--style-3" type="text" name="phone" placeholder="Phone" >
+                        </div>
+                          <input type="hidden" name="_csrf" value="{{csrfToken}}">
+                        <div class="p-t-10">
+                            <button class="btn btn--pill btn--green" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+

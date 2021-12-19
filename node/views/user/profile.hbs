@@ -1,0 +1,71 @@
+<div class="hero-wrap hero-bread" style="background-image: url('/images/bg_6.jpg');">
+    <div class="container">
+        <div class="row justify-content-center text-center align-items-center">
+            <div class="col-md-8">
+                <h2>USER PROFILE</h2><br>
+                <ul class="list-group" style="list-style-type: italic ">
+                                <p style="font-size:18px">Name:   {{this.user.name}}</p>
+                                <p style="font-size:18px">Address:   {{this.user.address}}</p>
+                             <p style="font-size:18px; padding-bottom: 10px">Phone:   {{this.user.phone}}</p>
+
+                        </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{{#if orders}}
+
+        <h2 class="row justify-content-center text-center align-items-center">Your Past Orders</h2>
+        </div>
+    </div>
+    {{# each orders}}
+
+        <div class="row mb-5">
+            <form class="col-md-12" method="post">
+                <div class="site-blocks-table">
+                    <table class="table table-bordered">
+                        <thead>
+                        <tr>
+                            <th class="product-thumbnail">Image</th>
+                            <th class="product-name">Product</th>
+                            <th class="product-price">Price</th>
+                            <th class="product-quantity">Quantity</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            {{# each this.items}}
+
+                            <tr>
+                                <td class="product-thumbnail">
+                                    <img src="{{this.item.imagePath}}" alt="Image" width="200" height="200" class="img-fluid">
+                                </td>
+                                <td class="product-name">
+                                    <h2 class="h5 cart-product-title text-black">{{this.item.title}}</h2>
+                                </td>
+                                <td>Rs.{{this.item.price}}</td>
+                                <td>{{this.qty}}</td>
+
+                             </tr>
+                        {{/each}}
+    {{/each}}
+                        </tbody>
+                    </table>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    </div>
+{{else}}
+    <div class="site-section  pb-0">
+        <div class="container">
+            <div class="row mb-5 justify-content-center">
+                <div class="col-7 section-title text-center mb-5">
+                    <h2 class="d-block">No Orders Yet.</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+{{/if}}
