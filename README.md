@@ -45,7 +45,7 @@
    
    ![email](./images/confirm.png)
 
-<h3>9.Contact Us form<h3>
+<h3>9. Contact Us form<h3>
    
    ![contact](./images/contact.png)
    
