@@ -9,3 +9,43 @@
 * [AngularJS](https://angularjs.org/)
  
  ### Web Screenshots
+<h3>1. HomePage <h3>
+   
+   ![home](./images/home.png)
+
+<h3>2. Signup<h3>
+   
+   ![register](./images/signup.png)
+   
+<h3>3. Signin <h3>
+   
+   ![login](./images/login.png)
+  
+<h3>4. Shop | Cart | Rating <h3>
+   
+   ![cart](./images/shop.png)
+ 
+ <h3>5. Final Cart <h3>
+   
+   ![check](./images/cart.png)
+ 
+<h3>5. Checkout <h3>
+   
+   ![checkout](./images/payment.png)
+   
+<h3>6. Payment with Stripe API <h3>
+   
+   ![payment](./images/pay.png)
+
+ <h3>7. User Profile | Past orders <h3>
+   
+   ![user](./images/profile.png)
+   
+<h3>8. Order Confirmation <h3>
+   
+   ![email](./images/confirm.png)
+
+<h3>9.Contact Us form<h3>
+   
+   ![contact](./images/contact.png)
+   
